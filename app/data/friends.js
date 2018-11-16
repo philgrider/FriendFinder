@@ -1,0 +1,117 @@
+var dogArray = [
+    {
+        "name":"Catahoula Leopard Dog",
+        "photo":"https://vetstreet.brightspotcdn.com/dims4/default/adb349e/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2F57%2Fac%2F35e5449d4022bd321671ea96cf6d%2FCatahoula-Leopard-Dog-AP-1VNFRT-645sm71113.jpg",
+        "scores":[
+            3,
+            4,
+            4,
+            3,
+            3,
+            2,
+            5,
+            4,
+            3,
+            3
+          ]
+      },
+      {
+        "name":"Rottweiler",
+        "photo":"https://vetstreet.brightspotcdn.com/dims4/default/593c3f7/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2F29%2Fc4%2F98f7dbf84f09babe5aab72440dd8%2Frottweiler-6.jpg",
+        "scores":[
+            3,
+            3,
+            2,
+            3,
+            2,
+            1,
+            3,
+            4,
+            3,
+            3
+          ]
+      },
+      {
+        "name":"Anatolian Shepherd",
+        "photo":"https://vetstreet.brightspotcdn.com/dims4/default/36ac057/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2F05%2Fc61bc0a32d11e087a80050568d634f%2Ffile%2FAnatolian-Shepherd-1-645mk062411.jpg",
+        "scores":[
+            2,
+            2,
+            3,
+            2,
+            3,
+            1,
+            3,
+            3,
+            3,
+            3
+          ]
+      },
+      {
+        "name":"Anatolian Shepherd",
+        "photo":"https://vetstreet.brightspotcdn.com/dims4/default/36ac057/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2F05%2Fc61bc0a32d11e087a80050568d634f%2Ffile%2FAnatolian-Shepherd-1-645mk062411.jpg",
+        "scores":[
+            2,
+            2,
+            3,
+            2,
+            3,
+            1,
+            3,
+            3,
+            3,
+            3
+          ]
+      },
+      {
+      "name":"Bernese Mountain Dog",
+      "photo":"https://vetstreet.brightspotcdn.com/dims4/default/266f3d1/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fe4%2F7640c09e8c11e0a2380050568d634f%2Ffile%2Fbernese-mountain-dog-1-645mk062411.jpg",
+      "scores":[
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4
+        ]
+    },
+    {
+        "name":"Miniature Bull Terrier",
+        "photo":"https://vetstreet.brightspotcdn.com/dims4/default/266f3d1/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fe4%2F7640c09e8c11e0a2380050568d634f%2Ffile%2Fbernese-mountain-dog-1-645mk062411.jpg",
+        "scores":[
+            4,
+            4,
+            4,
+            1,
+            4,
+            2,
+            4,
+            4,
+            5,
+            3
+          ]
+      },
+      {
+        "name":"Chinese Crested",
+        "photo":"https://vetstreet.brightspotcdn.com/dims4/default/b61a877/2147483647/crop/645x380%2B0%2B11/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fae%2Fc6%2F2f2acdb3420b9a321173d9d9b01e%2Fchinese-crested-ap-0w15gn.jpg",
+        "scores":[
+            3,
+            4,
+            2,
+            4,
+            3,
+            3,
+            2,
+            3,
+            2,
+            1
+          ]
+      }
+  ];
+  
+  // Note how we export the array. This makes it accessible to other files using require.
+  module.exports = dogArray;
